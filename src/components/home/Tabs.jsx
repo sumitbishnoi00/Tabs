@@ -19,7 +19,7 @@ const Tabs = ({ activeTab }) => {
 
     const currentTab = TABS_DATA.find((item) => item.id === activeTab) || TABS_DATA[0];
   return (
-    <section className='px-3 min-h-screen flex flex-col items-center justify-center'>
+    <section className='px-3 min-h-screen flex flex-col items-center justify-center bg-white-smoke'>
 
         <h1 className='font-normal text-4xl leading-[100%] text-gray mb-10.75'>Tabs</h1>
         <div className='max-w-135 w-full mx-auto bg-white rounded-[20px] shadow-[0px_11px_44px_-10px_#00000040] px-6.25 pb-8.5 pt-7.25'>
